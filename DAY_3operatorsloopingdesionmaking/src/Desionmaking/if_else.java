@@ -11,7 +11,7 @@ public class if_else {
 		int b=s.nextInt();
 		
 		//if..else statement(when two things will going be check)
-		if(a>b)
+		if(a>=b)
 		{
 			System.out.println("A is greater"+a);
 		}
