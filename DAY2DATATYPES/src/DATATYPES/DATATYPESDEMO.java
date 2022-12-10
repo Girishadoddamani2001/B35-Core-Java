@@ -15,7 +15,6 @@ public class DATATYPESDEMO {
 		String str="GIRISHA";
 		boolean var=true;
 		int x=(int)12.5;
-		float y=(float)34;
 		System.out.println("The value is: "+num);
 		System.out.println("The value is: "+c);
 		System.out.println("The value is: "+d);
