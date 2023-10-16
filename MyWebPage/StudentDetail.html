@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Details</title>
+</head>
+<body>
+<script type="text/javascript">
+name = prompt('Enter student name');
+reg = prompt("Enter student Registration no");
+s1= parseInt(prompt("Enter student Kannada  marks"));
+s2= parseInt(prompt("Enter student English  marks"));
+s3= parseInt(prompt("Enter student Hindi marks"));
+s4= parseInt(prompt("Enter student Science marks"));
+s5= parseInt(prompt("Enter student Math's marks"));
+s6= parseInt(prompt("Enter student Social science marks"));
+document.write("Name: "+name+'<br>')
+document.write("Roll no: "+reg+'<br><br>')
+document.write("KANNADA: "+s1+'<br>')
+document.write("ENGLISH: "+s2+'<br>')
+document.write("HINDI: "+s3+'<br>')
+document.write("SCIENCE: "+s4+'<br>')
+document.write("MATH'S: "+s5+'<br>')
+document.write("SOCIAL SCIENCE: "+s6+'<br><br>')
+t=s1+s2+s3+s4+s5+s6
+document.write("TOTAL MARKS: "+t+'<br><br>')
+document.write("PERCENTAGE: "+t/600*100+"%")
+</script>
+</body>
+</html>

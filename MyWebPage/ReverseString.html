@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+ function f()
+{
+	a = document.getElementById("tb1").value
+	b=a.split('').reverse().join('')
+	document.getElementById("tb2").value=b
+
+}
+</script>
+</head>
+<body>
+
+Name:<input type="text"  id="tb1"><br>
+Reverse Name:<input type="text"  id="tb2"><br>
+<input type="submit"  id="tb3" value="Reverse" onclick="f()">
+</body>
+</html>
